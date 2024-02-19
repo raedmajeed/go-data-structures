@@ -54,6 +54,9 @@ func TreeOperations() {
 	tree.Insert((6))
 	tree.Insert((3))
 	tree.Insert((7))
-
-	tree.BFS()
+	tree.Insert((4))
+	tree.Insert((2))
+	result1 := tree.LevelOrderTraversal()
+	result2 := tree.AvgOfEachLevel()
+	fmt.Println(result1, result2)
 }
