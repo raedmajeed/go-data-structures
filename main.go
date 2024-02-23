@@ -1,6 +1,6 @@
 package main
 
-import pkg "github.com/raedmajeed/data-structures/pkg/sorting"
+import pkg "github.com/raedmajeed/data-structures/pkg/basics"
 
 type ss struct {
 	age int
@@ -9,5 +9,7 @@ type ss struct {
 func main() {
 	//pkg.TreeOperations()
 	//pkg.SortMethods()
-	pkg.SortMain()
+	//pkg.SortMain()
+	//pkg.TrieOperations()
+	pkg.Inheritence()
 }
